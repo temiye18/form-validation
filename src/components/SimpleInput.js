@@ -1,6 +1,6 @@
 import React from "react";
 import useInput from "../hooks/use-input";
-const SimpleInput = (props) => {
+const SimpleInput = () => {
   const {
     value: enteredName,
     hasError: nameInputHasError,
