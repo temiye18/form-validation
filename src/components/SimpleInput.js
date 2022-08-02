@@ -30,7 +30,7 @@ const SimpleInput = () => {
 
     // setEnteredEmailTouched(true);
 
-    if (!enteredNameIsValid && !enteredEmailIsValid) {
+    if (!enteredNameIsValid || !enteredEmailIsValid) {
       return;
     }
 
